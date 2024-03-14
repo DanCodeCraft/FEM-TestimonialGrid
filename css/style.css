@@ -1,0 +1,120 @@
+/* COLORS */
+
+:root {
+  /* Primary */
+  --violet: hsl(263, 55%, 52%);
+  --greyblue: hsl(217, 19%, 35%);
+  --blackblue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Neutral */
+  --lightgrey: hsl(0, 0%, 81%);
+  --lightgreyblue: hsl(210, 46%, 95%);
+}
+
+/* GENERAL */
+
+html {
+  background-color: var(--lightgreyblue);
+}
+
+body {
+  /* FW: 500, 600 */
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  padding: 2.2rem 1.4rem;
+}
+
+.flex-header {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.2rem;
+}
+
+/* .flex-name-verified {
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* STYLING */
+.grid {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  width: 340px;
+
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.06);
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+
+  border-radius: 50%;
+}
+
+.name,
+.verified {
+  margin-left: 14px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.verified {
+  opacity: 50%;
+}
+
+.testimonial-header {
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.testimonial {
+  opacity: 70%;
+  font-size: 0.8rem;
+}
+
+.card__daniel {
+  background-color: var(--violet);
+  color: var(--white);
+}
+
+.avatar__daniel {
+  border: 2px solid hsl(263, 87%, 65%);
+}
+
+.card__jonathan {
+  background-color: var(--greyblue);
+  color: var(--white);
+}
+
+.card__jeanette {
+  background-color: var(--white);
+  color: var(--greyblue);
+}
+
+.card__patrick {
+  background-color: var(--blackblue);
+  color: var(--white);
+}
+
+.card__kira {
+  background-color: var(--white);
+  color: var(--greyblue);
+}
