@@ -33,11 +33,6 @@ body {
   margin-bottom: 1.2rem;
 }
 
-/* .flex-name-verified {
-  display: flex;
-  flex-direction: column;
-} */
-
 .footer {
   margin-top: 1rem;
   text-align: center;
@@ -52,9 +47,9 @@ body {
 
 .card {
   margin-bottom: 1.5rem;
-  width: 340px;
+  width: 330px;
 
-  padding: 2rem;
+  padding: 1.5rem 2rem 2.2rem 2rem;
   border-radius: 8px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.06);
 }
@@ -77,6 +72,7 @@ body {
 
 .verified {
   opacity: 50%;
+  font-size: 0.7rem;
 }
 
 .testimonial-header {
@@ -93,6 +89,10 @@ body {
 .card__daniel {
   background-color: var(--violet);
   color: var(--white);
+
+  background-image: url(/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0;
 }
 
 .avatar__border {
